@@ -5,6 +5,7 @@
 # Define Terraform provider
 terraform {
   required_version = ">= 0.12"
+backend "azurerm" {}
 }
 
 # Configure the Azure provider
